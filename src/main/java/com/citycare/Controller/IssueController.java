@@ -9,7 +9,7 @@ import java.util.List;
 
 @RequestMapping("/issue")
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://citycare-siddesh.netlify.app")
 
 public class IssueController {
 
@@ -41,6 +41,7 @@ public class IssueController {
 
             }
 }
+
 
 
 
